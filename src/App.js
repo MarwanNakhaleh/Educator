@@ -4,6 +4,7 @@ import {
   View,
   StyleSheet
 } from 'react-native';
+import { Header } from './components';
 
 // const instructions = Platform.select({
 //   ios: 'Press Cmd+R to reload,\n' +
@@ -15,7 +16,8 @@ import {
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View>
+        <Header headerText='Educator' />
         <Text style={styles.welcome}>
           Noice.
         </Text>
