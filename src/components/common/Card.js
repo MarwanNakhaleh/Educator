@@ -1,5 +1,5 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import { View } from 'react-native';
 
 const Card = (props) => {
   return (
@@ -7,20 +7,17 @@ const Card = (props) => {
       {props.children}
     </View>
   );
-}
+};
 
 const styles = {
   containerStyle: {
     borderWidth: 1,
     borderRadius: 2,
-    borderColor: "#ddd",
+    borderColor: '#ddd',
     borderBottomWidth: 0,
-    shadowColor: '#333',
-    shadowOffset: {
-      width: 0,
-      height: 2
-    },
-    shadowOpacity: 0.2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
     shadowRadius: 2,
     elevation: 1,
     marginLeft: 5,
@@ -29,4 +26,4 @@ const styles = {
   }
 };
 
-export {Card};
+export { Card };
